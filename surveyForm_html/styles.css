@@ -1,0 +1,32 @@
+header {
+    border: 2px greenyellow;
+    border-style: dashed;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+}
+
+#main {
+    border: 2px orangered solid;
+    padding: 8px;
+    position: relative;
+
+}                                      /*end of header sec*/
+#personal {
+    padding: 6px;
+    text-align: center;
+}
+.det {
+    padding: 5px;
+    font-size: 20px;
+}
+#foodfavs {
+    border: 2px yellow dashed;
+}
+.descrip {
+    
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}                                  /*end of personal details section*/
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey:Cape Town Food Favourites</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 role="presentation">Resident Survey Form</h1>
+        <p class="descrip" role="note">This is a survey form for our fellow Cape Townians, for a deep insight on what our people
+          <br> find as favourites when it comes to food and dining options.</p>
+        
+    </header>
+    <div id="main">
+        <form id="personal" action="/surveyform_html" method="POST" role="note">
+            <label for="details" class="det" role="note">Name</label>
+            <input id="name" class="det" type="username" role="presentation" name="name" placeholder="name" required pattern="[a-zA-Z]+">
+            <label for="surname" role="note" class="det">Surname</label>
+            <input id="surname" class="det" type="username" role="presentation" name="surname" placeholder="surname"required pattern="[a-zA-Z]+" >
+            <label for="contact" role=note" class="det">Contact number</label>
+            <input id="contact" class="det" type="tel" name="contact" role="presentation" required pattern="[0-9]{10}">
+        </form>
+    </div>
+    <section id="foodfavs">
+        <p class="descrip">Cape Town is infamous for multi-cultural food, the best in the South some would say<br>
+        please indicate to us which food types are your favourite.</p>
+    </section>
+    
+    
+</body>
+<footer></footer>
+</html>
