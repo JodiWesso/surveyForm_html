@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey:Cape Town Food Favourites</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 role="presentation">Resident Survey Form</h1>
+        <p class="descrip" role="note">This is a survey form for our fellow Cape Townians, for a deep insight on what our people
+          <br> find as favourites when it comes to food and dining options.</p>
+        
+    </header>
+    <div id="main">
+        <form id="personal" action="/surveyform_html" method="POST" role="note">
+            <label for="details" class="det" role="note">Name</label>
+            <input id="name" class="det" type="username" role="presentation" name="name" placeholder="name" required pattern="[a-zA-Z]+">
+            <label for="surname" role="note" class="det">Surname</label>
+            <input id="surname" class="det" type="username" role="presentation" name="surname" placeholder="surname"required pattern="[a-zA-Z]+" >
+            <label for="contact" role=note" class="det">Contact number</label>
+            <input id="contact" class="det" type="tel" name="contact" role="presentation" required pattern="[0-9]{10}">
+        </form>
+    </div>
+    <section id="foodfavs">
+        <p class="descrip">Cape Town is infamous for multi-cultural food, the best in the South some would say
+        please indicate to us which food types are your favourite.</p>
+        <form id="favfood" action="/survetform_html" method="POST" >
+         <input id="akhne" name="favfood" type="checkbox" value="akhne">
+         <label for="akhne">Akhne</label>
+         <input id="boboti" name="favfood" type="checkbox" value="boboti">
+         <label for="fishnchips">Fish n Chips</label>
+         <input id="fishnchips" name="favfood" type="checkbox" value="fishnchips"> 
+         <label for="bunnyChow">BunnyChow</label>
+         <input id="bunnyChow" name="favfood" type="checkbox" value="bunnychow">
+         <label for="sushi">Sushi</label>
+         <input id="sushi" name="favfood" type="checkbox" value="sushi">
+         <label for="pizza">Pizza</label>
+         <input id="pizza" name="favfood" type="checkbox" value="pizza">
+         <label for="seafood">Seafood</label>
+         <input id="seafood" name="favfood" type="checkbox" value="seafood">
+         <label for="gatsby">Gatsby</label>
+         <input id="gatsby" name="favfood" type="checkbox" value="gatsby">
+         <label for="curry">Curry</label>
+         <input id="curry" name="favfood" type="checkbox" value="curry">
+         <label for="potjie">Poitjiekos</label>
+         <input id="potjie" name="favfood" type="checkbox" value="potjie">
+         <label for="braai">Braai</label>
+         <input id="braai" name="favfood" type="checkbox" value="braai">
+         <label for="burgers">Burgers</label>
+         <input id="burgers" name="favfood" type="checkbox" value="burgers">
+         <label for="pasta">Pasta</label>
+         <input id="pasta" name="favfood" type="checkbox" value="pasta">
+
+
+
+        </form>
+    </section>
+    
+    
+</body>
+<footer></footer>
+</html>
